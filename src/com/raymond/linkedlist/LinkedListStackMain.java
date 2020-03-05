@@ -6,7 +6,7 @@ import com.raymond.stack.Stack;
 import java.util.Random;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-29 20:14:12
  */
 public class LinkedListStackMain {

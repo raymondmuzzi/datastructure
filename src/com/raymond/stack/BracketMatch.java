@@ -3,7 +3,7 @@ package com.raymond.stack;
 import java.util.Stack;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-25 16:38:15
  */
 public class BracketMatch {

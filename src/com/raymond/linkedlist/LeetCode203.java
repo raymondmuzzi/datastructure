@@ -3,7 +3,7 @@ package com.raymond.linkedlist;
 /**
  * Notice: every linked list is defined by head node
  *
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-03-05 15:22:37
  */
 class ListNode {

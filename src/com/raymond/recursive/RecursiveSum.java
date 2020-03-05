@@ -3,7 +3,7 @@ package com.raymond.recursive;
 /**
  * The most simple demo for recursive
  *
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-03-05 16:50:02
  */
 public class RecursiveSum {

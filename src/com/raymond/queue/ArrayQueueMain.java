@@ -3,7 +3,7 @@ package com.raymond.queue;
 /**
  * Based array's Queue
  *
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-25 17:57:03
  */
 public class ArrayQueueMain {

@@ -1,7 +1,7 @@
 package com.raymond.linkedlist;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-28 20:49:20
  */
 public class LinkedList<E> {

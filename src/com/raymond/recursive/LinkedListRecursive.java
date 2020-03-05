@@ -1,7 +1,7 @@
 package com.raymond.recursive;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-03-05 22:27:23
  */
 public class LinkedListRecursive<E> {

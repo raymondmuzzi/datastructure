@@ -1,10 +1,9 @@
 package com.raymond.linkedlist;
 
-import com.raymond.linkedlist.LinkedList;
 import com.raymond.stack.Stack;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-29 19:50:07
  */
 public class LinkedListStack<E> implements Stack<E> {

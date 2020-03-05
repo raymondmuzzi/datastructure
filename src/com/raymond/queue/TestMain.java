@@ -5,7 +5,7 @@ import com.raymond.linkedlist.LinkedListQueue;
 import java.util.Random;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-28 17:12:11
  */
 public class TestMain {

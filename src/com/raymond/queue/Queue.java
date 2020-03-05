@@ -1,7 +1,7 @@
 package com.raymond.queue;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-25 17:54:12
  */
 public interface Queue<E> {

@@ -3,7 +3,7 @@ package com.raymond.linkedlist;
 import com.raymond.queue.Queue;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-29 22:36:09
  */
 public class LinkedListQueue<E> implements Queue<E> {

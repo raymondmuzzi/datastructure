@@ -1,7 +1,7 @@
 package com.raymond.stack;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-24 00:27:47
  */
 public interface Stack<E> {

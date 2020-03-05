@@ -1,7 +1,7 @@
 package com.raymond.array;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-23 16:54:19
  */
 public class Array<E> {

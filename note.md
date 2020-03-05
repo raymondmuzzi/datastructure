@@ -22,6 +22,7 @@ Data structure is the study of how data is organized and stored in computer. To 
 - LinkedList(use dummy head)
 - LinkedList(Stack,Queue)
 - LeetCode(203)
+- Accomplish linked list via recursive
 
 ## Recursive
 We can split the recursive problem into two parts:

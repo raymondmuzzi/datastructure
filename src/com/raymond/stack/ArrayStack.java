@@ -1,7 +1,7 @@
 package com.raymond.stack;
 
 /**
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-23 23:45:07
  */
 public class ArrayStack<E> implements Stack<E> {

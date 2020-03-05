@@ -4,7 +4,7 @@ package com.raymond.queue;
  * Loop Queue
  * To resolve the efficiency problem while dequeue
  *
- * @author pipi
+ * @author raymondmuzzi
  * @date 2020-02-25 23:19:48
  */
 public class LoopQueue<E> implements Queue<E> {
