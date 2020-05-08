@@ -202,6 +202,27 @@ public class LinkedList<E> {
         return remove(size - 1);
     }
 
+    /**
+     * Remove the specific element
+     *
+     * @param e
+     */
+    public void removeElement(E e) {
+        Node cur = dummyHead;
+        while (cur.next != null) {
+            if (e.equals(cur.e)) {
+                break;
+            }
+            cur = cur.next;
+        }
+
+        if (cur.next != null) {
+            Node delNode = cur.next;
+            cur.next = delNode.next;
+            delNode.next = null;
+        }
+    }
+
     @Override
     public String toString() {
         StringBuilder result = new StringBuilder();

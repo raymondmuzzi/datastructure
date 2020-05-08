@@ -6,10 +6,10 @@ import java.util.Stack;
  * @author raymondmuzzi
  * @date 2020-02-25 16:38:15
  */
-public class BracketMatch {
+public class LeetCode20 {
 
     public static void main(String[] args) {
-        BracketMatch bracketMatch = new BracketMatch();
+        LeetCode20 bracketMatch = new LeetCode20();
         boolean value = bracketMatch.isValue("{ss[dd]()(})");
         System.out.println(value);
 
