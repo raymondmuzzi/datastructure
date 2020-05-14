@@ -7,6 +7,8 @@ package com.raymond.array;
 public class Array<E> {
     private E[] data;
     private int size;
+    /** 初始化数组默认的长度 */
+    private static final int INITIAL_CAPACITY = 10;
 
     /**
      * 构造函数，传入数组的容量capacity，构造Array
@@ -18,11 +20,19 @@ public class Array<E> {
         size = 0;
     }
 
+    public Array(E[] array) {
+        data = (E[]) new Object[array.length];
+        for (int i = 0; i < array.length; i++) {
+            data[i] = array[i];
+        }
+        size = array.length;
+    }
+
     /**
      * 无参构造器，默认大小为10
      */
     public Array() {
-        this(10);
+        this(INITIAL_CAPACITY);
     }
 
     /**
@@ -173,7 +183,7 @@ public class Array<E> {
             throw new RuntimeException("Remove failed, Index is illegal");
         }
         E result = data[index];
-        for (int i = index; i < size; i++) {
+        for (int i = index; i < size - 1; i++) {
             data[i] = data[i + 1];
         }
         size--;
@@ -234,13 +244,18 @@ public class Array<E> {
     }
 
     /**
-     * 如果数组满了，进行动态扩容
+     * 如果数组满了，进行动态扩容；
+     * 同时也可以进行缩容
      *
      * @param newCapacity
      */
     private void resize(int newCapacity) {
         E[] newData = (E[]) new Object[newCapacity];
-        for (int i = 0; i < data.length; i++) {
+        int index = data.length;
+        if (newCapacity < data.length) {
+            index = newCapacity;
+        }
+        for (int i = 0; i < index; i++) {
             newData[i] = data[i];
         }
         data = newData;

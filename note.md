@@ -54,9 +54,33 @@ Priority Queue: Enqueue and dequeue sequence determined by the priority
 
 The queue will change dynamically with the data's changing
 
+We can use heap to achieve priority queue, the enqueue and dequeue's time complexity are both log(n)
 
+Binary heap is a complete binary tree. In binary heap, one node value is smaller or equals than its parent's node value
 
+We can use array to represent a heap:
+    parent(i) = (i - 1) / 2; 
+    left child(i) = 2 * i + 1; 
+    right child(i) = 2 * i + 2;
 
+## Segment Tree
+Segment Tree is not full binary tree or complete tree.
+
+But segment tree is balanced binary tree. Heap is also balanced binary tree.
+
+Segment tree's last layer and full layer's distance is at most 1.
+
+Still, we can use array to represent the segment tree.Also, we can regard the segment tree as full binary tree
+because in the last layer of tree, we can use null to represent the non-exists node. 
+
+As for full binary tree, the h-depth tree has 2^h-1 nodes totally.And the last layer has 2^(h-1) nodes.
+So, the last layer node's count roughly equals the previous node's total count.
+ 
+If the data block has n elements, we should construct the 4n size array.
+
+Search and update operation in Segment Tree are both O(logn)
+
+## Trie
 
 
 
